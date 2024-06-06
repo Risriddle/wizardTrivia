@@ -1,0 +1,171 @@
+/* styles.css */
+/* styles.css */
+
+/* Keyframes for button animation */
+@keyframes buttonAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.cont{
+  margin: 20px auto;
+  padding: 20px;
+  background-color:lightslategray;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center; /* Aligns items horizontally */
+  align-items: center; /* Aligns items vertically */
+}
+h1{
+  text-align: center;
+}
+.button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Add transition */
+  animation: buttonAnimation 2s infinite; /* Add animation */
+  
+}
+
+.button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05); /* Add hover effect */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  margin: 20px auto;
+  padding: 20px;
+  background-color:lightslategray;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.card {
+  background-color:lightblue;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  
+}
+
+.card-header {
+  padding: 10px 20px;
+  background-color: cornflowerblue;
+  color: #fff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  margin: 0;
+}
+
+.card-subtitle {
+  margin-top: 5px;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.back-button {
+  background-color: #6c757d;
+}
+
+.back-button:hover {
+  background-color: #495057;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+
+.card-title {
+  margin-bottom: 0;
+}
+
+.card-subtitle {
+  margin-top: 0.5rem;
+  color: #6c757d;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-text {
+  margin-bottom: 1rem;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #f0f0f0;
+}
